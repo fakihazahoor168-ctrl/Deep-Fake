@@ -2,7 +2,6 @@
 
 A deep learning-based system to detect deepfake (AI-manipulated) images by comparing a **custom CNN** against a **fine-tuned EfficientNet-B3** model, deployed through an interactive **Streamlit** web interface.
 
-> 📄 Software Engineering — Semester 5 | Department of Software Engineering, COMSATS University Islamabad, Sahiwal Campus
 
 **Team:**
 - Aliha Asif (FA23-BSE-092)
@@ -29,14 +28,10 @@ With the rapid rise of AI-generated visual content, distinguishing real images f
 
 ## 🏗️ System Design
 
-### Architecture Diagram
-![Architecture Diagram](images/architecture_diagram.jpeg)
 
 ### Data Flow Diagram
 ![Data Flow Diagram](images/data_flow_diagram.png)
 
-### System Sequence Diagram
-![Sequence Diagram](images/sequence_diagram.jpeg)
 
 ---
 
@@ -156,9 +151,3 @@ streamlit run frontend/app.py
 - Ensemble techniques combining both models.
 - Adversarial training for robustness against sophisticated forgeries.
 - Expanding dataset diversity for better generalization.
-
----
-
-## 📚 References
-
-Key references include work on deepfake detection surveys, CNN-based facial manipulation detection, and EfficientNet-based transfer learning approaches. See the full report for the complete reference list.
